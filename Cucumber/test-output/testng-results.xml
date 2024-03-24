@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-24T19:52:53 IST" name="Default suite" finished-at="2024-03-24T19:53:05 IST" duration-ms="12511">
+    <groups>
+    </groups>
+    <test started-at="2024-03-24T19:52:53 IST" name="Default test" finished-at="2024-03-24T19:53:05 IST" duration-ms="12511">
+      <class name="Features.SauceDemoLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:52:53 IST" name="setUp" finished-at="2024-03-24T19:52:55 IST" duration-ms="2137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:52:56 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:52:57 IST" duration-ms="1034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:52:57 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:52:57 IST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:52:57 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:52:58 IST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:52:58 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:53:03 IST" duration-ms="5413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:53:03 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:53:04 IST" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:53:04 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:53:04 IST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:53:04 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:53:04 IST" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:53:04 IST" name="loginTest" data-provider="loginData" finished-at="2024-03-24T19:53:05 IST" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Features.SauceDemoLoginTest@75d4a5c2]" started-at="2024-03-24T19:53:05 IST" name="tearDown" finished-at="2024-03-24T19:53:05 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Features.SauceDemoLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
